@@ -1,11 +1,12 @@
 def turn_count(board)
-  counter = 0 
-  
+  counter = 0
+
   board.each do |turn|
-   if board == "X" || board == "O"
-     return "#{counter}"
-     counter += 1
-   end
+    if turn.downcase == "x" || turn.downcase == "o"
+      counter += 1
+      puts "#{counter}"
+    end
   end
-  return "#{counter}"
+
+  counter
 end
