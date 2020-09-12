@@ -4,6 +4,7 @@ def turn_count(board)
    if occupied_positions = "X" || occupied_positions = "0"
      counter += 1
      return "#{counter}"
+   end
   end
 end
 
