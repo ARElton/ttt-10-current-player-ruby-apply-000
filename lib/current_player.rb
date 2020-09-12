@@ -1,5 +1,7 @@
 def turn_count(board)
+  
   counter = 1
+  board = [" ", " ", " ", " ", " ", " ", " ", " "]
   new_board = [ ]
   
   board.each do |turn_number|
