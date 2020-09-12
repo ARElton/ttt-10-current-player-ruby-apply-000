@@ -3,7 +3,6 @@ def turn_count(board)
   new_board = [ ]
   
   board.each do |turn_number|
-     
     return "#{counter}"
     counter += 1 
   end
